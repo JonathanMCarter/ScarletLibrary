@@ -1,5 +1,6 @@
-# Events System
-The events system is a simple extension to system actions that makes sure no method is over-subscribed to. It also makes it easier to create events of custom types without needing to write a load of extra code. 
+![Events](https://user-images.githubusercontent.com/33253710/157115872-e3c652ca-1657-47db-95e0-483357371bed.jpg)
+
+<p align=center>The events system is a simple extension to system actions that makes sure no method is over-subscribed to.</p>
 
 # Usage
 ## Event Creation
