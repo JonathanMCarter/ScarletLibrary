@@ -4,7 +4,7 @@
 // Description: A storage class to hold any and all events in your game.
 // ----------------------------------------------------------------------------
 
-namespace Adriana.Events
+namespace Adriana.EventsSystem
 {
     public static class Events
     {

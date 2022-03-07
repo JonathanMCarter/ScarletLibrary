@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Adriana.Events
+namespace Adriana.EventsSystem
 {
     /// <summary>
     /// An event class with no parameters...
