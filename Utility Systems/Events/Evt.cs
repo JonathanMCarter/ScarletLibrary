@@ -7,11 +7,8 @@
 
 using System;
 
-namespace Adriana.EventsSystem
+namespace Adriana
 {
-    /// <summary>
-    /// An event class with no parameters...
-    /// </summary>
     public class Evt
     {
         private event Action Action = delegate { };

@@ -4,12 +4,12 @@
 // Description: A storage class to hold any and all events in your game.
 // ----------------------------------------------------------------------------
 
-namespace Adriana.EventsSystem
+namespace Adriana
 {
     public static class Events
     {
         // Examples:
-        // public static readonly Evt OnGameOver = new Evt();
-        // public static readonly Evt<int> OnMoneyCollect = new Evt<int>();
+        public static readonly Evt OnGameOver = new Evt();
+        public static readonly Evt<int> OnMoneyCollect = new Evt<int>();
     }
 }
