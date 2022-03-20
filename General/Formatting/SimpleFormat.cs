@@ -1,5 +1,5 @@
 ﻿// ----------------------------------------------------------------------------
-// EconomyFormat.cs
+// SimpleFormat.cs
 // 
 // Description: A class that formats numbers into a generic K,M,B,T,aa,ab,ac format
 //              with decimal points based on the character length.
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 
 namespace Adriana
 {
-    public static class EconomyFormat
+    public static class SimpleFormat
     {
         /// <summary>
         /// The first character to use once bast the Trillion count...
@@ -39,7 +39,7 @@ namespace Adriana
         /// </summary>
         /// <param name="value">The value to convert</param>
         /// <returns>The resulting string formatted</returns>
-        public static string ToEco(this double value)
+        public static string ToSimple(this double value)
         {
             return FormatValue(value);
         }
@@ -50,7 +50,7 @@ namespace Adriana
         /// </summary>
         /// <param name="value">The value to convert</param>
         /// <returns>The resulting string formatted</returns>
-        public static string ToEco(this float value)
+        public static string ToSimple(this float value)
         {
             return FormatValue(value);
         }
@@ -61,7 +61,7 @@ namespace Adriana
         /// </summary>
         /// <param name="value">The value to convert</param>
         /// <returns>The resulting string formatted</returns>
-        public static string ToEco(this int value)
+        public static string ToSimple(this int value)
         {
             return FormatValue(value);
         }
