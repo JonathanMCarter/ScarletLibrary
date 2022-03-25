@@ -25,9 +25,9 @@ namespace Adriana.Editor
             EditorGUI.indentLevel = 0;
 
             var _left = new Rect(position.x, position.y, (position.width / 6) - 1.5f, EditorGUIUtility.singleLineHeight);
-            var _leftLower = new Rect(position.x, position.y + EditorGUIUtility.singleLineHeight, (position.width / 6) - 1.5f, EditorGUIUtility.singleLineHeight);
+            var _leftLower = new Rect(position.x, position.y + EditorGUIUtility.singleLineHeight + 1.5f, (position.width / 6) - 1.5f, EditorGUIUtility.singleLineHeight);
             var _right = new Rect(position.x + (position.width / 6) + 1.5f, position.y, (position.width / 6) * 5 - 1.5f, EditorGUIUtility.singleLineHeight);
-            var _rightLower = new Rect(position.x + (position.width / 6) + 1.5f, position.y + EditorGUIUtility.singleLineHeight, (position.width / 6) * 5 - 1.5f, EditorGUIUtility.singleLineHeight);
+            var _rightLower = new Rect(position.x + (position.width / 6) + 1.5f, position.y + EditorGUIUtility.singleLineHeight + 1.5f, (position.width / 6) * 5 - 1.5f, EditorGUIUtility.singleLineHeight);
 
             EditorGUI.LabelField(_left, "Min:");
             EditorGUI.LabelField(_leftLower, "Max:");
@@ -54,7 +54,7 @@ namespace Adriana.Editor
 
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
         {
-            return base.GetPropertyHeight(property, label) * 2;
+            return base.GetPropertyHeight(property, label) * 2 + 1.5f;
         }
     }
     
@@ -68,7 +68,7 @@ namespace Adriana.Editor
 
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
         {
-            return base.GetPropertyHeight(property, label) * 2;
+            return base.GetPropertyHeight(property, label) * 2 + 1.5f;
         }
     }
     
@@ -83,7 +83,7 @@ namespace Adriana.Editor
 
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
         {
-            return base.GetPropertyHeight(property, label) * 2;
+            return base.GetPropertyHeight(property, label) * 2 + 1.5f;
         }
     }
 }
