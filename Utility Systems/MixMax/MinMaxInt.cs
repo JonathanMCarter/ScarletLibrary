@@ -11,6 +11,14 @@ namespace Adriana
     [Serializable]
     public class MinMaxInt : MinMaxBase<int>
     {
+        public MinMaxInt()
+        {
+            min = 0;
+            max = 1;
+        }
+        
+        public MinMaxInt(int min, int max) : base(min, max) { }
+        
         public override void IncreaseMinMax(int amount)
         {
             base.IncreaseMinMax(amount);
@@ -23,6 +31,14 @@ namespace Adriana
         {
             min = 0;
             max = 0;
+        }
+        
+        /// <summary>
+        /// Returns a random value in the min/max range...
+        /// </summary>
+        public virtual int Random()
+        {
+            return UnityEngine.Random.Range(min, max + 1);
         }
     }
 }

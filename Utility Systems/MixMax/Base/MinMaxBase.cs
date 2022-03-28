@@ -26,7 +26,7 @@ namespace Adriana
         /// Default Constructor...
         /// </summary>
         /// <remarks>Min = 0, Max = 1</remarks>
-        public MinMaxBase(){}
+        protected MinMaxBase(){}
 
 
         /// <summary>
@@ -34,7 +34,7 @@ namespace Adriana
         /// </summary>
         /// <param name="min">The min value for the range...</param>
         /// <param name="max">The max value for the range...</param>
-        public MinMaxBase(T min, T max)
+        protected MinMaxBase(T min, T max)
         {
             this.min = min;
             this.max = max;
