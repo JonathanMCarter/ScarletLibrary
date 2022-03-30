@@ -13,6 +13,13 @@
 - Canvas Group Extensions
 
 # Usage
+
+All of the scripts are extension classes so all methods in them are designed to be used like <code>ToString()</code> does. 
+
 ### Vector Extensions
 Provides some useful methods for some vector math that I sometimes forget the ordering of or how to write off the top of my head.
 
+![VectorExtDirectionTo](https://user-images.githubusercontent.com/33253710/160922330-a61d4771-b177-4b21-8892-c104216546ef.png)
+![VectorExtLine](https://user-images.githubusercontent.com/33253710/160922335-78a06900-3172-4ba2-9b01-cd69d5a1090f.png)
+![VectorExtMidPoint](https://user-images.githubusercontent.com/33253710/160922337-25f5529f-a057-4af5-b748-deb5d478d3cc.png)
+![VectorExtWith](https://user-images.githubusercontent.com/33253710/160922340-593c2ad1-cff7-4bba-b02a-06cbd0d9cc6d.png)
