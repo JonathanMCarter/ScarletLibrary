@@ -22,4 +22,4 @@ Method | Description | Example
 <code>DirectionTo</code> | Gets the direction to the inserted vector from the vector it is called from. | ![VectorExtDirectionTo](https://user-images.githubusercontent.com/33253710/160922330-a61d4771-b177-4b21-8892-c104216546ef.png)
 <code>Line</code> | Gets the line between both vectors. | ![VectorExtLine](https://user-images.githubusercontent.com/33253710/160922335-78a06900-3172-4ba2-9b01-cd69d5a1090f.png)
 <code>MidPoint</code> | Gets the middle point between the two vectors. | ![VectorExtMidPoint](https://user-images.githubusercontent.com/33253710/160922337-25f5529f-a057-4af5-b748-deb5d478d3cc.png)
-<code>With</code> | Lets you edit the vector x,y,z individually witohut needed to define a new vector. | ![VectorExtWith](https://user-images.githubusercontent.com/33253710/160922340-593c2ad1-cff7-4bba-b02a-06cbd0d9cc6d.png)
+<code>With</code> | Lets you edit the vector x,y,z individually without needed to define a new vector. | ![VectorExtWith](https://user-images.githubusercontent.com/33253710/160922340-593c2ad1-cff7-4bba-b02a-06cbd0d9cc6d.png)
